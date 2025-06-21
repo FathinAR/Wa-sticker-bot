@@ -1,0 +1,16 @@
+{
+  "name": "wa-bot-stiker",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp pembuat stiker dari teks dan gambar",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "canvas": "^2.11.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.22.1"
+  }
+}
